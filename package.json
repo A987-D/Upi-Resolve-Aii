@@ -1,0 +1,24 @@
+{
+  "name": "upi-resolve-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "UPI Resolve AI - hackathon prototype (synthetic data, mock connectors)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test tests/core.test.ts"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.5",
+    "@types/react": "18.3.11",
+    "typescript": "5.6.3"
+  },
+  "engines": { "node": ">=22.18" }
+}
